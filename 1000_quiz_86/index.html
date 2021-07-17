@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+
+    <title>Geldun</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+
+    <div id="nhap_ten" >
+        <div id="nhap_form">
+            <span style="color: black; font-size: 30px;">Your name:</span>
+            <input style="font-size: 30px; width: 80%;" type="text" id="ten_thi_sinh"> 
+            
+        </div>
+        <div id="xac_nhan">
+            <div id="btn_xac_nhan" onclick="hien_thi_ten()">Confirm</div>
+            <div id="thong_bao_ten">Please enter your name</div>
+        </div>
+        
+        
+        
+    </div>
+
+
+
+    <div id="app">
+        <div id="tien_do">
+            <div id="phan_tram"></div>
+        </div>
+        
+        <div id="thu_tu">
+            
+        </div>
+
+        <div id="am_thanh">
+           <audio  autoplay controls id="phat_nhac" controlsList="nodownload"></audio>
+        </div>
+
+        <div id="noi_dung">
+            <div id="dash"></div>
+
+            <div id="container"></div>
+
+            <div id="bang_true_false"></div>
+        </div>
+        <div id="nut_bam" >
+        <audio id="am_thanh_true_false" autoplay></audio>
+        <div id="btn" onclick="kiem_tra()">Check</div>
+        <div id="btn_tiep_tuc_dung" onclick="tiep_tuc_dung()">Continue</div>
+        <div id="btn_tiep_tuc_sai" onclick="tiep_tuc_sai()">Continue</div>
+        </div>
+    </div>
+    <div id="end_app">
+        <div id="tieu_de"></div>
+
+        <div id="diem_so">
+            
+        </div>
+        
+        
+        <div id="kenh_youtube">
+            <div id="noi_dung_quang_cao" onclick="click_youtube()">SUBCRIBE YOUTUBE</div>
+            <div id="menu" onclick="menu()">MENU</div>
+        </div>
+
+
+
+    </div>
+
+
+    <!-- Cơ sở dữ liệu -->
+    <div id="chu_de">1000_quiz_86</div>
+    <div id="du_lieu_tu_vung">851:captain ,852:challenge ,853:complete ,854:encourage ,855:noon ,856:position ,857:race ,858:record ,859:skill ,860:wing</div>
+    <div id="du_lieu_cau_hoi">Anton is the captain of our soccer team this year. ,It is a challenge for Shelly to wake up early, so she is often late. ,Sally completed her work carefully to avoid any mistakes. ,The teacher encouraged her student to continue writing her story. ,The next class starts at noon and ends at 2:00 p.m. ,Jen’s position near the front of the room allows her to hear well. ,It is necessary for everyone to begin the race together. ,He held the record as the first person to climb this mountain. ,It takes a bit of skill to wrap a gift well. Jenny is really good at it. ,The bird could not fly because it had a broken wing.</div>
+    <!-- <div id="du_lieu_loi_dich"></div> -->
+</body>
+<script src="./main.js"></script>
+</html>
